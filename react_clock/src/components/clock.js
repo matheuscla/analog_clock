@@ -26,7 +26,7 @@ class Clock extends Component {
         <Minutes minutes={this.state.minutes} />
         <Seconds seconds={this.state.seconds} />
         <div id="centro"></div>
-
+        <p className="time">Horário Atual: {this.state.hours}hrs {this.state.minutes}min {this.state.seconds}s</p>
       </div>
     )
   }

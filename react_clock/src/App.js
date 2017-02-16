@@ -20,10 +20,10 @@ class App extends Component {
   </header>
   <main className="mdl-layout__content">
     <div className="page-content">
-      <button
-        className="mdl-button mdl-js-button mdl-button--raised"
+      <button id="button"
+        className="mdl-button mdl-js-button mdl-button--raised show_hide_button"
         onClick={this.esconde}>
-        Esconder Relógio
+        Mostrar / Esconder Relógio
       </button>
           <Clock />
     </div>
