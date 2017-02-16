@@ -60,3 +60,7 @@
   bottom: 200%;
      -webkit-transition: all 1.5s ease-in-out;
 }
+
+.block {
+  display: block !important;
+}

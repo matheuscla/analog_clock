@@ -9,6 +9,9 @@ class Clock extends Component {
     this.state = { clock: new Date(), hours: '', minutes: '', seconds: '' }
   }
 
+
+
+
   render() {
     setTimeout(() => {
       this.setState({ clock: new Date(),
@@ -18,14 +21,16 @@ class Clock extends Component {
     }, 1000)
 
     return (
-      <div className="clock">
+      <div className="clock" id="clock">
         <Hours hours={this.state.hours}/>
         <Minutes minutes={this.state.minutes} />
         <Seconds seconds={this.state.seconds} />
         <div id="centro"></div>
+
       </div>
     )
   }
+
 
 
 }
